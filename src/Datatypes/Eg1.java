@@ -1,6 +1,6 @@
 package com.practice.variables;
 
-public class Eg3 {
+public class Eg1 {
 	        //data types:A data type  specifies the type of the data that variable store,java is a strongly typed language ,
 			//means that a variable must be declare with type.
 			//2 types of data types are there
