@@ -1,4 +1,5 @@
-package com.practice.variables;
+package Variable;
+
 public class Eg2 {
 	public void showDetails()
 	{
@@ -14,6 +15,4 @@ public class Eg2 {
 		Eg2 a=new Eg2();
 		a.showDetails();
 	}
-
 }
-
