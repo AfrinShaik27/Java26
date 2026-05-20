@@ -14,10 +14,16 @@ public class Eg3 {
 //		System.out.println("Enter your name:");
 //		String name=sc.next();
 //		System.out.println(name);
+//		
+//		System.out.println("Enter your salary:");
+//		double salary=sc.nextDouble();
+//		System.out.println(salary);
 		
-		System.out.println("Enter your salary:");
-		double salary=sc.nextDouble();
-		System.out.println(salary);
+		System.out.println("Enter your Phonenumber:");
+		String phonenumber=sc.next();
+		System.out.println(phonenumber);
+		
+		
 		
 	}
 
