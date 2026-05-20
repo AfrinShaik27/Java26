@@ -22,7 +22,12 @@ public class TemperatureChecker {
 		}else if(Temp<=10)
 		{
 			System.out.println( "Very Cold");
+		}else if(Temp<=20)
+		{
+			System.out.println( "Pleasant");
 		}
+		
+		
 		
 
 
