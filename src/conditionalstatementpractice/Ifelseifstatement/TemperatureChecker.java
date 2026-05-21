@@ -21,13 +21,23 @@ public class TemperatureChecker {
 			System.out.println("Freezing cold");
 		}else if(Temp<=10)
 		{
-			System.out.println( "Very Cold");
+			System.out.println( " Very Cold");
 		}else if(Temp<=20)
+		{
+			System.out.println( "cold");
+		}else if(Temp<=30)
 		{
 			System.out.println( "Pleasant");
 		}
-		
-		
+		else if(Temp<=40)
+		{
+			System.out.println( "Hot");
+		}
+		else
+		{
+			System.out.println("Very Hot");
+		}
+		sc.close();
 		
 
 
