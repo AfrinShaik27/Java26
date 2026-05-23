@@ -7,10 +7,10 @@ public class Printingnumbersdecrease {
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter a number:");
 		int N=sc.nextInt();
-//		for(int i=N;i>=1;i--)
-//		{
-//			System.out.println(i);
-//		}
+		for(int i=N;i>=1;i--)
+		{
+			System.out.println(i);
+		}
 //		int i=N;
 //		while(i>=1)
 //		{
