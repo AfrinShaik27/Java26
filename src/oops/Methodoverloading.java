@@ -1,4 +1,7 @@
 package oops;
+//method overloading is when a multiple methods have same method namebut
+//with different number of parameters and
+//with different types of parameters
 class Demo
 {
 	public int add(int a,int b)
