@@ -41,11 +41,11 @@ public class Eg3 {
 		float prices[][]= {{99.00f,89.00f,65.00f},{99.00f,89.00f,65.00f},{99.00f,89.00f,65.00f}};
 		
 		//printing array elements using for each loop /enhanced for loop
-		for(float f[]:prices)
+		for(float i[]:prices)
 		{
-			for(float values:f)
+			for(float j:i)
 			{
-				System.out.print(values+ " ");
+				System.out.print(j+ " ");
 			}
 			System.out.println("");
 			
