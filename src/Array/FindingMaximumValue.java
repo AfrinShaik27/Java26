@@ -24,6 +24,25 @@ public class FindingMaximumValue {
 //			}
 //		}
 //		System.out.println(max);
+		
+		int[][] nums = {
+			    {1, 2, 3},
+			    {90, 5, 6},
+			    {7, 8, 9}
+			};
+
+		int maxi=nums[0][0];
+		for(int i=0;i<nums.length;i++)
+		{
+			for(int j=0;j<nums[i].length;j++)
+			{
+				if(nums[i][j]>maxi)
+				{
+					maxi=nums[i][j];
+				}
+			}
+		}
+		System.out.println(maxi);
 
 	}
 

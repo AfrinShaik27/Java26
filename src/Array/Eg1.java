@@ -5,7 +5,7 @@ public class Eg1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//when we want to store multiple values in a single variable of same data type in that case we use arrays
-		//an array is an object container that holds multiple data types of same data type
+		//an array is an object container that holds multiple variables of same data type
 		//arrays are mutable 
 		//but arrays are fixed in size we can not change the size of an array once it declare
 		// arrays are objects

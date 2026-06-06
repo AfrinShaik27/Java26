@@ -15,6 +15,7 @@ public class SortingOfAnArray {
 		String names[]= {"Afrin","Hazeera","Ruffiya","Lahari","Tulasi","Indu","Mamatha","Ramya","Sajida","Sathwika"};
 		Arrays.sort(names);
 		System.out.println(Arrays.toString(names));
-
+		
+		
 	}
 }
