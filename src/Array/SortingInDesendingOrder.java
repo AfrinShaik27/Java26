@@ -11,7 +11,6 @@ public class SortingInDesendingOrder {
 		{
 			System.out.print(a[i]+" ");
 		}
-		
 
 	}
 
