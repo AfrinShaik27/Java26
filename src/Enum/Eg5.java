@@ -27,7 +27,10 @@ public class Eg5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(Seasons.values());
+		for( Seasons Seasons:Seasons.values())
+		{
+				System.out.println(Seasons+" --> "+Seasons.getTemperature() );
+		}
 		
 		Seasons s = Seasons.Winter;
 		System.out.println(s.getTemperature());
