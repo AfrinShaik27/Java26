@@ -21,7 +21,7 @@ public class Eg4 {
 			
 		case Saturday:
 		case Sunday:
-			System.out.println("It's Weekend");
+			System.out.println("It's a Weekend");
 			break;
 		default:
 			System.out.println("It's WorkDay");

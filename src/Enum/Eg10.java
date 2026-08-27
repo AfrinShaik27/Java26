@@ -21,6 +21,9 @@ public class Eg10 {
 			break;
 		case YELLOW:
 			System.out.println("Slow down!");
+			break;
+		default:
+			System.out.println("No Signal");
 		}
 
 	}

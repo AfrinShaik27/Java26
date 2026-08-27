@@ -8,6 +8,17 @@ public class Eg6 {
 	private String myQualification;
 	private long number;
 	
+	public Eg6()
+
+	{
+		System.out.println("Afrin");
+	}
+	
+	public Eg6(int a,int b)
+	{
+	int sum=a+b;
+	System.out.println(sum);
+	}
 	
 	public void setName(String name)
 	{
@@ -66,9 +77,10 @@ public class Eg6 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
+		  
 		Eg6 n=new Eg6();
-		n.setName("Afrin Shaik");
+		Eg6 n2=new Eg6(8,9);
+		n.setName("Afrin Shaik"); 
 		System.out.println("I'm "+n.getName());
 		
 		n.setAge(24);
